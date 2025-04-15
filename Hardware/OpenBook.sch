@@ -4570,6 +4570,8 @@ Stemma QT</text>
 <label x="134.62" y="119.38" size="1.4224" layer="95" xref="yes"/>
 </segment>
 <segment>
+<pinref part="TP1" gate="G$1" pin="TP"/>
+<wire x1="129.54" y1="71.12" x2="129.54" y2="73.66" width="0.1524" layer="91"/>
 <label x="129.54" y="73.66" size="1.27" layer="95" rot="R90" xref="yes"/>
 </segment>
 </net>
@@ -4851,12 +4853,6 @@ Stemma QT</text>
 <pinref part="D6" gate="G$0" pin="CATHODE"/>
 <wire x1="147.32" y1="10.16" x2="154.94" y2="10.16" width="0.1524" layer="91"/>
 <pinref part="R_CAPACITOR" gate="G$1" pin="2"/>
-</segment>
-</net>
-<net name="N$5" class="0">
-<segment>
-<pinref part="TP1" gate="G$1" pin="TP"/>
-<wire x1="129.54" y1="71.12" x2="129.54" y2="73.66" width="0.1524" layer="91"/>
 </segment>
 </net>
 </nets>
